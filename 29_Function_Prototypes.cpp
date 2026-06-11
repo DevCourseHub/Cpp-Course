@@ -1,9 +1,9 @@
 #include<iostream>
+using namespace std;
 
 int Sum(int a,int b);
 void Greet();
 int main(){
-    using namespace std;
     int Num1;
     int Num2;
     Greet();
@@ -31,7 +31,6 @@ int C=a+b;
 //It is not mandatory that function only returns it also print
 
 void Greet(){
-    using namespace std; //We put this because we dont have globally initiated the 'using namespace std;'.
     cout<<"Good Morning,Sir"<<endl;
 
 }

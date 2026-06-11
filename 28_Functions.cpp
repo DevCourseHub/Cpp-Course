@@ -1,10 +1,10 @@
 #include<iostream>
-int Sum(int a,int b){
+using namespace std; //From now on we will init using namespace std in global parameters
+int Sum(int a,int b){ 
     int C=a+b;
     return C; //Here it Takes the value of C and give the C to caller 
 }
 int main(){
-    using namespace std;
     // What is Functions?
     // A function in C++ is a block of code that performs a specific task and can be called whenever needed.Function is an independent block which never be under any other function.Here int main is also a function.
     int Num1;

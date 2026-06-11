@@ -1,9 +1,9 @@
 #include<iostream>
+using namespace std;
 int Sum(int a,int b);
 void Swap(int c,int d);
 void SwapPointer(int* c,int* d);
 int main(){
-    using namespace std;
     int x=5,y=10;
     cout<<"The Sum Of 10 and 20 is "<<Sum(10,20)<<endl;
     cout<<"The original value of x is "<<x<<" and y is "<<y<<endl;
@@ -27,7 +27,6 @@ void Swap(int c,int d){ //lets say the value of c=5 ,d=10
 }
 //Call By reference using pointers
 void SwapPointer(int*c,int* d){ 
-    using namespace std; 
     int temp=*c;        
     *c=*d;                
     *d=temp;             

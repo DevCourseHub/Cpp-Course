@@ -1,7 +1,7 @@
 #include<iostream>
+using namespace std;
 int product(int c,int d);
 int main(){
-    using namespace std;
     int a,b;
     cout<<"Enter the value of a and b"<<endl;
     cin>>a>>b;
